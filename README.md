@@ -1,59 +1,79 @@
-# Store
 
-This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 19.2.11.
+# 🎮 Clone da PlayStation Store
 
-## Development server
+Este projeto é um clone simples da PlayStation Store desenvolvido com **Angular**. O objetivo principal foi praticar a criação de componentes e a estrutura básica de um projeto Angular, **sem utilização de rotas**.
 
-To start a local development server, run:
+## 🚀 Tecnologias Utilizadas
+
+- [Angular](https://angular.io/) (versão 19)  
+- HTML5  
+- CSS3  
+- TypeScript
+
+## 🧩 Funcionalidades
+
+- Listagem de jogos (estática)
+- Visual de cards com imagem, título e preço
+- Layout inspirado na PlayStation Store
+- Responsivo básico
+
+## 📁 Estrutura do Projeto
+
+```
+src/
+├── app/
+│   ├── components/
+│   │   ├── card/
+│   │   │   ├── card-label/
+│   │   │   │
+│   │   │   └── card-pricing/
+│   │   └── menu-bar/
+│   ├── pages/
+│   │    ├── home/
+│   └── app.component.ts
+├── assets/
+└── index.html
+```
+
+## 🛠️ Como Executar
+
+1. Clone o repositório:
+
+```bash
+git clone https://github.com/ErikaGomess/clone-playstation-store-angular
+```
+
+2. Navegue até o diretório do projeto:
+
+```bash
+cd clone-playstation-store-angular
+```
+
+3. Instale as dependências:
+
+```bash
+npm install
+```
+
+4. Inicie o servidor de desenvolvimento:
 
 ```bash
 ng serve
 ```
 
-Once the server is running, open your browser and navigate to `http://localhost:4200/`. The application will automatically reload whenever you modify any of the source files.
+5. Acesse `http://localhost:4200/` no seu navegador.
 
-## Code scaffolding
+## 📌 Observações
 
-Angular CLI includes powerful code scaffolding tools. To generate a new component, run:
+- O projeto **não utiliza rotas Angular**.
+- Os dados dos jogos são estáticos (mockados no código).
+- Projeto com foco em prática de componentes e estilização.
 
-```bash
-ng generate component component-name
-```
+## 📷 Preview
 
-For a complete list of available schematics (such as `components`, `directives`, or `pipes`), run:
+![Preview do projeto](./assets/preview.png) <!-- adicione uma imagem de exemplo se quiser -->
 
-```bash
-ng generate --help
-```
+## 📄 Licença
 
-## Building
+Este projeto está sob a licença MIT. Sinta-se livre para usar e modificar como quiser.
 
-To build the project run:
-
-```bash
-ng build
-```
-
-This will compile your project and store the build artifacts in the `dist/` directory. By default, the production build optimizes your application for performance and speed.
-
-## Running unit tests
-
-To execute unit tests with the [Karma](https://karma-runner.github.io) test runner, use the following command:
-
-```bash
-ng test
-```
-
-## Running end-to-end tests
-
-For end-to-end (e2e) testing, run:
-
-```bash
-ng e2e
-```
-
-Angular CLI does not come with an end-to-end testing framework by default. You can choose one that suits your needs.
-
-## Additional Resources
-
-For more information on using the Angular CLI, including detailed command references, visit the [Angular CLI Overview and Command Reference](https://angular.dev/tools/cli) page.
