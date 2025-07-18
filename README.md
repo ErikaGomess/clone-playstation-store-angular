@@ -71,7 +71,7 @@ ng serve
 
 ## 📷 Preview
 
-![Preview do projeto](./assets/preview.png) <!-- adicione uma imagem de exemplo se quiser -->
+![Preview do projeto](./src/assets/preview.png) <!-- adicione uma imagem de exemplo se quiser -->
 
 ## 📄 Licença
 
